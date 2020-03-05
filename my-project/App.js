@@ -7,7 +7,6 @@ export default function App() {
     <>
       <SafeAreaView style={styles.container}>
         <KeyboardAvoidingView
-          behavior='padding'
           style={styles.todoContainer}
         >
           <Todo />
